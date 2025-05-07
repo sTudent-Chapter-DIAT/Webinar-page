@@ -25,6 +25,22 @@
       box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
       animation: fadeIn 1s ease-in-out;
     }
+  form-container {
+  position: relative;
+  width: 100%;
+  padding-top: 150%; /* Adjust height ratio if form is too long or short */
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+.form-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
 
     h1 {
       font-size: 2rem;
